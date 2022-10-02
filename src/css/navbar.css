@@ -1,0 +1,231 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --transition-speed: 600ms;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    position: fixed;
+    background-color: rgb(46, 46, 46);
+    transition: width 600ms ease;
+    overflow: scroll;
+    z-index: 100;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    position: absolute; 
+    bottom: 0; 
+}
+
+.nav-item:nth-last-child(2) {
+    position: absolute; 
+    bottom: 5rem; 
+}
+
+.fa-terminal {
+    margin-left: 1rem;
+    color: #00ff15;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: white;
+    text-decoration: none;
+    
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    color: #00ff15;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    margin-left: 1rem;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.3ch;
+    width: 100%;
+}
+
+.logo i {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+}
+
+.logo-text {
+    display: inline;
+    position: absolute;
+    left: -999px;
+    transition: var(--transition-speed);
+}
+
+.navbar:hover .logo-text {
+    left: 0px;
+}
+
+.navbar:hover .logo i {
+    transform: rotate(-360deg);
+}
+
+.navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text {
+    display: inline;
+}
+
+.navbar:hover .logo i {
+    margin-left: 12rem;
+}
+
+.navbar-nav li {
+    white-space: nowrap;
+}
+
+
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@-moz-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+
+.navbar:hover .nav-linkSlide {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}
+
+@media only screen and (max-height: 1046px) {
+    
+    .nav-item:last-child {
+        position: static;
+    }
+    
+    .nav-item:nth-last-child(2) {
+        position: static; 
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+   
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ff15;
+    border-radius: 10px;
+}

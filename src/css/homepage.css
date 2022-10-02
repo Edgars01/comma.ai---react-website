@@ -1,0 +1,516 @@
+@font-face {
+    font-family: InterBold;
+    src: url("../font/inter/Inter-Medium.otf");
+}
+
+@font-face {
+    font-family: Monument;
+    src: url("../font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+    font-family: InterLight;
+    src: url("../font/inter/Inter-Light.otf");
+}
+
+@font-face {
+    font-family: ExtraLight;
+    src: url("../font/inter/Inter-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: ExtraBold;
+    src: url("../font/inter/Inter-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: InterMedium;
+    src: url("../font/inter/Inter-Medium.otf");
+}
+
+
+
+
+.main {
+    background-color: #0f0f0f;
+    height: 100vh;
+}
+
+.uppperBlockIconContainer {
+    background-color: white;
+    height: 4.2rem;
+    position: sticky;
+    top: 0;
+}
+
+.upperBlockIcon {
+    margin-left: 51%;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    width: 2rem;
+    height: 3rem;
+}
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #86ff4e;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: InterBold,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 2.5423728814rem;
+  margin: 0;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 5rem;
+  float: right;
+  margin-top: 0.7rem;
+  margin-right: 2rem;
+  border-radius: 4px;
+  height: 2.75rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #6bff26;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.uppperBlockTextContainer {
+    background-color: #6bff26;
+    height: 4.2rem;
+    box-shadow: inset 0px 0px 7px rgba(97, 97, 97, 0.411);
+    -webkit-box-shadow: inset 0px 0px 7px rgba(97, 97, 97, 0.411);
+    -moz-box-shadow: inset 0px 0px 7px rgba(97, 97, 97, 0.411);
+    text-align: center;
+    cursor: pointer;
+}
+
+.uppperBlockText {
+    margin-bottom: 16px;
+    font-size: 20.338px;
+    font-size: 1.2711864407rem;
+    color: #000;
+    font-family: InterBold,sans-serif;
+    font-weight: 100;
+}
+
+.mainChild {
+    display: grid;
+}
+
+.commaThreeTextFrame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: -2rem
+}
+
+.commaThreeImgFrame {
+    width: 100%;
+    display: flex;
+    height: 34rem;
+    justify-content: center;
+    -webkit-touch-callout: none; /*iOS Safari*/
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                  /*supported by Chrome, Edge, Opera and Firefox */
+}
+
+.commaThreeImg {
+    margin-top: 5rem;
+    height: 34rem;
+}
+
+.commaThreeHeading {
+    font-family: Monument;
+    font-size: 4.2372881356rem;
+    line-height: 5.0847457627rem;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: auto;
+    letter-spacing: 5px;
+    color: white;  
+}
+
+.commaThreeText {
+    font-family: ExtraLight;
+    color: #d5d5d5;
+    margin-top: -4rem;
+    font-size: 1.2711864407rem;
+    line-height: 2.0338983051rem;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: auto;
+    font-weight: 100;
+}
+
+.overlayComponent {
+    position: absolute;
+   
+}
+
+.commaThreeImgOuterFrame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 17rem;
+}
+
+.commaThreeImgFrame {
+    z-index: 1;
+}
+
+.commaThreeVideo {
+    z-index: 2;
+    margin-top: 1.2rem;
+}
+
+.comma-two-buy-now {
+    text-align: center;
+    font-size: 24px;
+    color: #86ff4e;
+    font-family: InterBold;
+    cursor: pointer;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: auto;
+    line-height: 2.5423728814rem;
+}
+
+.comma-two-buy-now-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.commaTwoDescriptionFrame {
+    margin-top: 33rem;
+    color: #d5d5d5;
+    font-family: InterLight;
+    text-align: left;
+    font-size: 35px!important;
+    line-height: 48px!important;
+    line-height: 3rem!important;
+    width: 100%;
+    border-bottom: #d5d5d5 1px solid;
+    text-align: center;
+    left: 1%;
+    right: 1%;
+}
+
+a {
+    color: white;
+}
+
+.comma-two-paragraph {
+    width: 100%;
+    text-align: justify;
+    hyphens: auto
+}
+
+.arrowDescription {
+    margin-left: 1rem;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.mainFrame {
+    background-color: #0f0f0f;
+}
+
+.informationFrame {
+    
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding-bottom: 10rem;
+}
+
+.cardsFrame {
+    display: grid;
+    grid-template-columns: 22rem 22rem 22rem;
+    justify-content: center;    
+    margin-top: 7rem;
+    gap: 7rem;
+    color: #d5d5d5;
+    font-family: InterLight;
+    font-size: 1.6rem;
+    
+}
+
+span {
+    font-family: ExtraBold;
+}
+
+.actualArrowDescription {
+    height: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.comma-two-buy-now-arrow {
+    margin-left: 0.5rem;
+}
+
+.card-container {
+    padding: 10px;
+}
+
+.cardIcons {
+    height: 100%;
+    
+}
+
+.cardText {
+    text-align: justify;
+}
+
+.cardIconsContainer {
+    height: 3rem;
+}
+
+.commaVideoCover {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-width: 100%;
+    z-index: 1;
+   
+}
+
+.commaVideoCoverContainer {
+    position:relative;
+}
+
+.comma-landing-cover-content {
+    position: absolute; 
+    top: 40%; 
+    left: 0;
+    text-align: center; 
+    width: 100%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comma-shop-two-buy-now-button-homepage {
+   
+    font-size: 20.338px;
+    font-size: 1.2711864407rem;
+    height: 75px;
+    min-width: 235px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #86ff4e;
+    border: 1px solid transparent;
+    box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: InterMedium;
+    justify-content: center;
+    line-height: 2.5423728814rem;
+    margin: 0;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    border-radius: 4px;   
+    -webkit-font-smoothing: antialiased
+}
+
+.comma-landing-cover-text {
+    color: white;
+    font-family: ExtraBold;
+    font-size: 4.2rem;
+}
+
+.openpilotContainer {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.openpilotHeading {
+    color: white;
+    font-size: 2.8601694915rem;
+    line-height: 3.813559322rem;
+    font-family: InterBold;
+}
+
+.openpilotText {
+    color: white;
+    text-align: justify;
+    font-size: 1.2711864407rem;
+    line-height: 2.0338983051rem;
+}
+
+.lowerContianer {
+    background-color: black;
+}
+
+.top-gradient-box {
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-image: url("/Users/edgars/Desktop/commaai/src/media/homepage/openpilot-cover-three.jpeg");
+    position: relative;
+}
+
+.layer {
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.608), transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+.openpilotButtons {
+    color: #86ff4e;
+}
+
+.openpilotButtonArrow {
+    padding-left: 10px;
+}
+
+.openpilotButtonsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    /* -webkit-box-direction: normal; */
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    gap: 3rem;
+}
+
+.openpilotButtonsOuterContainer {
+    max-width: 420px;
+    display: inline-grid;
+    padding-top: 3rem;
+}
+
+.keepYourEyesOnTheRoadOuterContainer {
+    border: 1px solid #fff;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 5%;
+}
+
+.keepYourEyesOnTheRoadContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.keepYourEyesHeader {
+    color: white;
+    font-family: InterBold;
+    width: 100%;
+    font-size: 2.8601694915rem;
+}
+
+.keepYourEyesOnTheRoadGridItem {
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: left;
+}
+
+.driverMonitoringAtNight {
+    width: 100%;
+}
+
+.keepYourEyesText {
+    font-size: 1.2711864407rem;
+    line-height: 2.0338983051rem;
+    font-family: ExtraLight;
+    font-weight: 100;
+    color: #d5d5d5;
+    margin: 0;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.keepYourEyesLink {
+    color: #86ff4e;
+    font-size: 1.35rem;
+}
+
+.keepYourEyesArrow {
+    padding-left: 10px;
+}
+
+.compatibilityContainer {
+    text-align: center;
+    color: white;
+    margin-top: 17rem;
+}
+
+.compatibilityHeader {
+    font-size: 3rem;
+    font-family: interBold;
+    line-height: 0.7;
+}
+
+.compatibilityText {
+    font-size: 1rem;
+    font-family: InterLight;
+}
+
+.tweetsContainer {
+    background-color: rgb(110, 59, 59);
+}
