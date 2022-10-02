@@ -514,3 +514,24 @@ span {
 .tweetsContainer {
     background-color: rgb(110, 59, 59);
 }
+
+.carouselOuterContainer {
+    justify-items: center;
+}
+
+.carouselContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0 15%;
+}
+
+
+
+.carouselItem > div {
+    top: 0;
+    padding-top: 0;
+    
+}

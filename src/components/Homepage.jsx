@@ -15,7 +15,8 @@ import commaVideoCover from '../media/homepage/c3-hero.mp4';
 import driverMonitoringAtNight from '../media/homepage/driver-monitoring-at-night.jpeg';
 
 
-import Home from '../functions/homepage/script.jsx';
+import Home from '../functions/homepage/textChange.jsx';
+
 
 const Homepage = () => {
     return (
@@ -199,9 +200,47 @@ const Homepage = () => {
             </div>
 
 
-            <div>
-                <div>
-                    ReactDOM.render(<Tweet tweetId='511181794914627584'/>, document.getElementById('root'))
+            <div className='carouselOuterContainer'>
+                <div className='carouselContainer'>
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1407386480314621954'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1412919215443619842'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1384241368290131971'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1411533232617627649'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1387103362349289472'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1436860291535495168'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1343373334960955392'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1362492653783445505'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1407386480314621954'/>
+                    </div>
+
+                    <div className='carouselItem'>
+                        <Tweet tweetId='1412919215443619842'/>
+                    </div>
                 </div>
             </div>
 
@@ -210,7 +249,5 @@ const Homepage = () => {
         </div>
     )
 }
-
-
 
 export default Homepage
