@@ -201,9 +201,6 @@ const Homepage = () => {
 
             </div>
 
-
-
-           
             <div className='grid'>
                 <Tweet tweetId='1407386480314621954' className="grid-item" />
                 <Tweet tweetId='1412919215443619842' className="grid-item" />
@@ -216,12 +213,6 @@ const Homepage = () => {
                 <Tweet tweetId='1407386480314621954' className="grid-item" />
                 <Tweet tweetId='1412919215443619842' className="grid-item" />
             </div>
-
-
-
-           
-
-
 
         </div>
     )
