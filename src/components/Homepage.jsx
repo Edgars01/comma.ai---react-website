@@ -201,18 +201,32 @@ const Homepage = () => {
 
             </div>
 
-            <div className='grid'>
-                <Tweet tweetId='1407386480314621954' className="grid-item" />
-                <Tweet tweetId='1412919215443619842' className="grid-item" />
-                <Tweet tweetId='1384241368290131971' className="grid-item" />
-                <Tweet tweetId='1411533232617627649' className="grid-item" />
-                <Tweet tweetId='1387103362349289472' className="grid-item" />
-                <Tweet tweetId='1436860291535495168' className="grid-item" />
-                <Tweet tweetId='1343373334960955392' className="grid-item" />
-                <Tweet tweetId='1362492653783445505' className="grid-item" />
-                <Tweet tweetId='1407386480314621954' className="grid-item" />
-                <Tweet tweetId='1412919215443619842' className="grid-item" />
+            <div className="tweetOuterContainer">
+                <div className="tweetContainer">
+
+                    <div className='grid'>
+                        <Tweet tweetId='1407386480314621954' className="grid-item" />
+                        <Tweet tweetId='1412919215443619842' className="grid-item" />
+                        <Tweet tweetId='1384241368290131971' className="grid-item" />
+                        <Tweet tweetId='1411533232617627649' className="grid-item" />
+                        <Tweet tweetId='1387103362349289472' className="grid-item" />
+                        <Tweet tweetId='1436860291535495168' className="grid-item" />
+                        <Tweet tweetId='1343373334960955392' className="grid-item" />
+                        <Tweet tweetId='1362492653783445505' className="grid-item" />
+                        <Tweet tweetId='1407386480314621954' className="grid-item" />
+                        <Tweet tweetId='1412919215443619842' className="grid-item" />
+                        <Tweet tweetId='1394808101145038849' className="grid-item" />
+                        <Tweet tweetId='1382461217520902145' className="grid-item" />
+                    </div>
+
+                    <div className="layer">
+
+                    </div>
+
+                </div>
             </div>
+
+
 
         </div>
     )
