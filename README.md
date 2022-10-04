@@ -6,7 +6,6 @@ todo list:
 
 fix html https://medium.com/@kanika17/difference-in-between-html-and-html-5-6f5ced8b35c9 <br>
 optimize css  <br>
-fix tweet grid  https://masonry.desandro.com/ masonry + load more on scroll  <br>
 insert comma svg as nav bar icon  <br>
 footer  <br>
 all classes must be cammel case  <br>
