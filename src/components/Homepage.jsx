@@ -18,6 +18,8 @@ import driverMonitoringAtNight from '../media/homepage/driver-monitoring-at-nigh
 import Home from '../functions/homepage/textChange.jsx';
 
 
+
+
 const Homepage = () => {
     return (
         <div className='mainFrame'>
@@ -200,51 +202,26 @@ const Homepage = () => {
             </div>
 
 
-            <div className='carouselOuterContainer'>
-                <div className='carouselContainer'>
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1407386480314621954'/>
-                    </div>
 
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1412919215443619842'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1384241368290131971'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1411533232617627649'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1387103362349289472'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1436860291535495168'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1343373334960955392'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1362492653783445505'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1407386480314621954'/>
-                    </div>
-
-                    <div className='carouselItem'>
-                        <Tweet tweetId='1412919215443619842'/>
-                    </div>
-                </div>
+           
+            <div className='grid'>
+                <Tweet tweetId='1407386480314621954' className="grid-item" />
+                <Tweet tweetId='1412919215443619842' className="grid-item" />
+                <Tweet tweetId='1384241368290131971' className="grid-item" />
+                <Tweet tweetId='1411533232617627649' className="grid-item" />
+                <Tweet tweetId='1387103362349289472' className="grid-item" />
+                <Tweet tweetId='1436860291535495168' className="grid-item" />
+                <Tweet tweetId='1343373334960955392' className="grid-item" />
+                <Tweet tweetId='1362492653783445505' className="grid-item" />
+                <Tweet tweetId='1407386480314621954' className="grid-item" />
+                <Tweet tweetId='1412919215443619842' className="grid-item" />
             </div>
 
-            
+
+
+           
+
+
 
         </div>
     )

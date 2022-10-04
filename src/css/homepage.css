@@ -52,47 +52,47 @@
 }
 
 .button-5 {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #86ff4e;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: black;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: InterBold,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 2.5423728814rem;
-  margin: 0;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: 5rem;
-  float: right;
-  margin-top: 0.7rem;
-  margin-right: 2rem;
-  border-radius: 4px;
-  height: 2.75rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #86ff4e;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: InterBold, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 2.5423728814rem;
+    margin: 0;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 5rem;
+    float: right;
+    margin-top: 0.7rem;
+    margin-right: 2rem;
+    border-radius: 4px;
+    height: 2.75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .button-5:hover,
 .button-5:focus {
-  background-color: #6bff26;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    background-color: #6bff26;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .button-5:hover {
-  transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 .uppperBlockTextContainer {
@@ -110,7 +110,7 @@
     font-size: 20.338px;
     font-size: 1.2711864407rem;
     color: #000;
-    font-family: InterBold,sans-serif;
+    font-family: InterBold, sans-serif;
     font-weight: 100;
 }
 
@@ -133,12 +133,18 @@
     display: flex;
     height: 34rem;
     justify-content: center;
-    -webkit-touch-callout: none; /*iOS Safari*/
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Old versions of Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
+    -webkit-touch-callout: none;
+    /*iOS Safari*/
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                   /*supported by Chrome, Edge, Opera and Firefox */
 }
 
@@ -156,7 +162,7 @@
     -webkit-font-smoothing: antialiased;
     font-kerning: auto;
     letter-spacing: 5px;
-    color: white;  
+    color: white;
 }
 
 .commaThreeText {
@@ -174,7 +180,7 @@
 
 .overlayComponent {
     position: absolute;
-   
+
 }
 
 .commaThreeImgOuterFrame {
@@ -219,9 +225,9 @@
     color: #d5d5d5;
     font-family: InterLight;
     text-align: left;
-    font-size: 35px!important;
-    line-height: 48px!important;
-    line-height: 3rem!important;
+    font-size: 35px !important;
+    line-height: 48px !important;
+    line-height: 3rem !important;
     width: 100%;
     border-bottom: #d5d5d5 1px solid;
     text-align: center;
@@ -246,7 +252,7 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    
+
 }
 
 .mainFrame {
@@ -254,24 +260,24 @@ a {
 }
 
 .informationFrame {
-    
+
     width: 80rem;
     margin-left: auto;
     margin-right: auto;
-   
+
     padding-bottom: 10rem;
 }
 
 .cardsFrame {
     display: grid;
     grid-template-columns: 22rem 22rem 22rem;
-    justify-content: center;    
+    justify-content: center;
     margin-top: 7rem;
     gap: 7rem;
     color: #d5d5d5;
     font-family: InterLight;
     font-size: 1.6rem;
-    
+
 }
 
 span {
@@ -293,7 +299,7 @@ span {
 
 .cardIcons {
     height: 100%;
-    
+
 }
 
 .cardText {
@@ -310,19 +316,19 @@ span {
     object-fit: cover;
     min-width: 100%;
     z-index: 1;
-   
+
 }
 
 .commaVideoCoverContainer {
-    position:relative;
+    position: relative;
 }
 
 .comma-landing-cover-content {
-    position: absolute; 
-    top: 40%; 
+    position: absolute;
+    top: 40%;
     left: 0;
-    text-align: center; 
-    width: 100%; 
+    text-align: center;
+    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -331,7 +337,7 @@ span {
 }
 
 .comma-shop-two-buy-now-button-homepage {
-   
+
     font-size: 20.338px;
     font-size: 1.2711864407rem;
     height: 75px;
@@ -357,7 +363,7 @@ span {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
-    border-radius: 4px;   
+    border-radius: 4px;
     -webkit-font-smoothing: antialiased
 }
 
@@ -454,7 +460,7 @@ span {
     flex-flow: row wrap;
     margin: 0;
     width: 100%;
-    
+
 }
 
 .keepYourEyesHeader {
@@ -515,23 +521,32 @@ span {
     background-color: rgb(110, 59, 59);
 }
 
-.carouselOuterContainer {
-    justify-items: center;
+.grid {
+    --gap: 2em;
+    --columns: 3;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: column;
+    columns: var(--columns);
+    gap: var(--gap);
+    margin-top: 5rem;
 }
 
-.carouselContainer {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding: 5% 0 15%;
+.grid>* {
+    break-inside: avoid;
+    margin-bottom: var(--gap);
 }
 
+@supports (grid-template-rows: masonry) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(var(--columns), 1fr);
+        grid-template-rows: masonry;
+        grid-auto-flow: dense;
+        
+    }
 
-
-.carouselItem > div {
-    top: 0;
-    padding-top: 0;
-    
+    .grid>* {
+        margin-bottom: 0em;
+    }
 }
