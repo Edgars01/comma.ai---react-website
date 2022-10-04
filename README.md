@@ -15,3 +15,5 @@ responsive  <br>
 links should have pointer cursor  <br>
 page should have correct h1 h2.. tags  seo  <br>
 all file names should be in cammel case  <br>
+max width istead of width to divs <br>
+
