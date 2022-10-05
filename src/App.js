@@ -2,9 +2,9 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import { Navbar, Homepage, Compatibility, Setupguide } from './components';
+import { Navbar, Homepage, Compatibility, Setupguide, Footer } from './components';
 import './css/navbar.css';
-
+import './css/footer.css';
 
 const App = () => {
 
@@ -16,8 +16,6 @@ const App = () => {
             </div>
 
             <div className='main'>
-
-
                 <Layout>
                     <div className='routes'>
                         <Switch>
@@ -37,13 +35,16 @@ const App = () => {
                         </Switch>
                     </div>
                 </Layout>
+
+                <footer className='footerContainer'>
+                < Footer />
+                </footer>
             </div>
 
-            <div className='footer'>
             
-            </div>
 
         </div>
+        
     );
 }
 

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: InterBold;
+    src: url("../font/inter/Inter-Medium.otf");
+}
+
+footer {
+    width: 100%;
+   
+    background-color: rgb(44, 44, 44);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+p {
+    color: white;
+    font-family: InterBold;
+}
+
+.commaImage {
+    width: 3rem;
+}
+
+.footerOuterGrid {
+   
+    width: 100%;
+}

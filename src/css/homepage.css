@@ -505,7 +505,7 @@ span {
     text-align: center;
     color: white;
     margin-top: 17rem;
-    
+
 }
 
 .compatibilityHeader {
@@ -517,10 +517,6 @@ span {
 .compatibilityText {
     font-size: 1rem;
     font-family: InterLight;
-}
-
-.tweetsContainer {
-    background-color: rgb(110, 59, 59);
 }
 
 .grid {
@@ -545,7 +541,6 @@ span {
         grid-template-columns: repeat(var(--columns), 1fr);
         grid-template-rows: masonry;
         grid-auto-flow: dense;
-        
     }
 
     .grid>* {
@@ -554,21 +549,132 @@ span {
 }
 
 .tweetOuterContainer {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(44, 44, 44);
     top: 0;
     margin-top: -10rem;
+    padding-bottom: 10rem;
+}
+
+.tweetHeading {
+    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(60%, hsla(0, 0%, 100%, 0)), color-stop(50%, #72ff00), to(#72ff00));
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 60%, #72ff00 0, #72ff00);
+    font-size: 2.3rem;
+    display: inline;
+    font-family: InterBold;
 }
 
 .tweetContainer {
     position: relative;
-    padding-top: 17rem;
+    padding-top: 25rem;
+    text-align: center;
 }
 
 .tweetlayer {
-    background-image: linear-gradient(rgb(213rgba(67, 199, 37, 0.608), 0, 0.608), rgb(27, 32, 176));
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.608), transparent);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 20%;
+}
+
+.featuredInContainer {
+    background-color: white;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    border-radius: 0px 50px;
+
+    margin-top: -3rem;
+
+}
+
+.featuredInHeader {
+    font-size: 2.3rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(60%, hsla(0, 0%, 100%, 0)), color-stop(50%, #72ff00), to(#72ff00));
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 60%, #72ff00 0, #72ff00);
+    display: inline;
+    font-family: InterBold;
+}
+
+.featuredInGrid {
+    display: -ms-inline-grid;
+    margin-top: 2rem;
+}
+
+.featuredInIcons {
+    width: 10rem;
+    padding: 2rem;
+    height: 2rem;
+}
+
+.lowerBuyNowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 10rem;
+}
+
+.lowerBuyNowInnerContainer {
+    width: 80%;
+    border-radius: 50px 50px 50px 50px;
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buyNowDiv {
+   
+    width: 90%;
+    margin: 4rem;
+    text-align: center;
+}
+
+.buyNowHeader {
+    color: white;
+    font-size: 2.3rem;
+    font-family: InterBold;
+}
+
+.buyNowText {
+    color: white;
+    font-size: 0.9rem;
+    font-family: InterBold;
+}
+
+.buyNowTextButtonGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    align-items: center;
+}
+
+.buyNowButton {
+    float: right;
+    background: #86ff4e;
+    color: #000;
+    border: 1px;
+    border-color: #000;
+    font-family: InterBold;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    font-size: 16.949px;
+    font-size: 1.0593220339rem;
+    height: 50px;
+    width: 200px;
 }

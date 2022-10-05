@@ -16,3 +16,5 @@ page should have correct h1 h2.. tags  seo  <br>
 all file names should be in cammel case  <br>
 max width istead of width to divs  <br>
 imports should have their own file  <br>
+WE'VE BEEN FEATURED IN - logos zoom in on hover  <br>
+gifs in readme to show site highlits  <br>

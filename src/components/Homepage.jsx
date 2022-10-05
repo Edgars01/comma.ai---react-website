@@ -1,9 +1,9 @@
 import React from 'react'
 import { Tweet } from 'react-twitter-widgets'
 
-
 import '../css/navbar.css';
 import '../css/homepage.css';
+
 
 import commaThreeFrame from '../media/homepage/c3-homepage.png';
 import commaThreeVideo from '../media/homepage/c3screen.mp4';
@@ -14,8 +14,13 @@ import iconFast from '../media/homepage/icon-fast-light-green.svg';
 import commaVideoCover from '../media/homepage/c3-hero.mp4';
 import driverMonitoringAtNight from '../media/homepage/driver-monitoring-at-night.jpeg';
 
-
 import Home from '../functions/homepage/textChange.jsx';
+
+import {
+    featuredInContainer_01, featuredInContainer_02,
+    featuredInContainer_03, featuredInContainer_04,
+    featuredInContainer_05, featuredInContainer_06
+} from '../components/index.js';
 
 
 
@@ -202,21 +207,24 @@ const Homepage = () => {
             </div>
 
             <div className="tweetOuterContainer">
+
                 <div className="tweetContainer">
 
+                    <h6 className='tweetHeading'>THOUSANDS OF DRIVERS AND MILLIONS OF MILES</h6>
+
                     <div className='grid'>
-                        <Tweet tweetId='1407386480314621954' className="grid-item" />
-                        <Tweet tweetId='1412919215443619842' className="grid-item" />
-                        <Tweet tweetId='1384241368290131971' className="grid-item" />
-                        <Tweet tweetId='1411533232617627649' className="grid-item" />
-                        <Tweet tweetId='1387103362349289472' className="grid-item" />
-                        <Tweet tweetId='1436860291535495168' className="grid-item" />
-                        <Tweet tweetId='1343373334960955392' className="grid-item" />
-                        <Tweet tweetId='1362492653783445505' className="grid-item" />
-                        <Tweet tweetId='1407386480314621954' className="grid-item" />
-                        <Tweet tweetId='1412919215443619842' className="grid-item" />
-                        <Tweet tweetId='1394808101145038849' className="grid-item" />
-                        <Tweet tweetId='1382461217520902145' className="grid-item" />
+                        <Tweet tweetId='1407386480314621954' />
+                        <Tweet tweetId='1412919215443619842' />
+                        <Tweet tweetId='1384241368290131971' />
+                        <Tweet tweetId='1411533232617627649' />
+                        <Tweet tweetId='1387103362349289472' />
+                        <Tweet tweetId='1436860291535495168' />
+                        <Tweet tweetId='1343373334960955392' />
+                        <Tweet tweetId='1362492653783445505' />
+                        <Tweet tweetId='1407386480314621954' />
+                        <Tweet tweetId='1412919215443619842' />
+                        <Tweet tweetId='1394808101145038849' />
+                        <Tweet tweetId='1382461217520902145' />
                     </div>
 
                     <div className="layer">
@@ -224,6 +232,47 @@ const Homepage = () => {
                     </div>
 
                 </div>
+
+            </div>
+
+            <div className='featuredInContainer'>
+
+                <h6 className='featuredInHeader'>WE'VE BEEN FEATURED IN</h6>
+
+                <div className='featuredInGrid'>
+                    <img src={featuredInContainer_01} className="featuredInIcons"></img>
+                    <img src={featuredInContainer_02} className="featuredInIcons"></img>
+                    <img src={featuredInContainer_03} className="featuredInIcons"></img>
+                    <img src={featuredInContainer_04} className="featuredInIcons"></img>
+                    <img src={featuredInContainer_05} className="featuredInIcons"></img>
+                    <img src={featuredInContainer_06} className="featuredInIcons"></img>
+                </div>
+
+            </div>
+
+            <div className='lowerBuyNowContainer'>
+
+                <div className='lowerBuyNowInnerContainer'>
+
+                    <div className='buyNowDiv'>
+                        <h3 className='buyNowHeader'>Try the comma three with our 30-day money back trial.</h3>
+
+                        <div className='buyNowTextButtonGrid'>
+                            <p className='buyNowText' data-affirm-color="white" data-amount="199900" data-page-type="homepage">
+                                Starting at <span className="buyNowText">$181</span>
+                                /mo with <span className="buyNowText">Affirm</span>
+                                . <a className="buyNowText" aria-label="Learn more about Affirm Financing (opens in modal)" href="javascript:void(0)">Learn more</a>
+                            </p>
+
+                            <button className='buyNowButton'>
+                                    Buy Now
+                                </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
 
