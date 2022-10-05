@@ -18,3 +18,4 @@ max width istead of width to divs  <br>
 imports should have their own file  <br>
 WE'VE BEEN FEATURED IN - logos zoom in on hover  <br>
 gifs in readme to show site highlits  <br>
+use https://squoosh.app/ to minimize media file size  <br>
