@@ -125,7 +125,7 @@
     flex-wrap: wrap;
     align-content: space-around;
     align-items: center;
-    margin-top: -2rem
+    margin-top: 4rem
 }
 
 .commaThreeImgFrame {
@@ -168,7 +168,6 @@
 .commaThreeText {
     font-family: ExtraLight;
     color: #d5d5d5;
-    margin-top: -4rem;
     font-size: 1.2711864407rem;
     line-height: 2.0338983051rem;
     box-sizing: border-box;
@@ -605,9 +604,9 @@ span {
 }
 
 .featuredInIcons {
-    width: 10rem;
+    width: 15rem;
     padding: 2rem;
-    height: 2rem;
+   
 }
 
 .lowerBuyNowContainer {
@@ -640,12 +639,6 @@ span {
 .buyNowHeader {
     color: white;
     font-size: 2.3rem;
-    font-family: InterBold;
-}
-
-.buyNowText {
-    color: white;
-    font-size: 0.9rem;
     font-family: InterBold;
 }
 

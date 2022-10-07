@@ -250,30 +250,7 @@ const Homepage = () => {
 
             </div>
 
-            <div className='lowerBuyNowContainer'>
-
-                <div className='lowerBuyNowInnerContainer'>
-
-                    <div className='buyNowDiv'>
-                        <h3 className='buyNowHeader'>Try the comma three with our 30-day money back trial.</h3>
-
-                        <div className='buyNowTextButtonGrid'>
-                            <p className='buyNowText' data-affirm-color="white" data-amount="199900" data-page-type="homepage">
-                                Starting at <span className="buyNowText">$181</span>
-                                /mo with <span className="buyNowText">Affirm</span>
-                                . <a className="buyNowText" aria-label="Learn more about Affirm Financing (opens in modal)" href="javascript:void(0)">Learn more</a>
-                            </p>
-
-                            <button className='buyNowButton'>
-                                    Buy Now
-                                </button>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+            
 
 
 
