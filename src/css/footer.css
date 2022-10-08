@@ -6,6 +6,8 @@ ul {
 .footer-section {
     background: #151414;
     position: relative;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 .footer-widget ul li {

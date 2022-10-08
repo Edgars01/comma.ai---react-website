@@ -4,7 +4,6 @@ import { Tweet } from 'react-twitter-widgets'
 import '../css/navbar.css';
 import '../css/homepage.css';
 
-
 import commaThreeFrame from '../media/homepage/c3-homepage.png';
 import commaThreeVideo from '../media/homepage/c3screen.mp4';
 import greenArrow from '../media/homepage/green-arrow.svg';
@@ -21,9 +20,6 @@ import {
     featuredInContainer_03, featuredInContainer_04,
     featuredInContainer_05, featuredInContainer_06
 } from '../components/index.js';
-
-
-
 
 const Homepage = () => {
     return (

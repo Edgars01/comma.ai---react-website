@@ -19,7 +19,7 @@ main {
 
 .navbar {
     position: fixed;
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.251);
     transition: width 600ms ease;
     overflow: scroll;
     z-index: 100;

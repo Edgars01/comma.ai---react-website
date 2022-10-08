@@ -119,7 +119,7 @@
 }
 
 .commaThreeTextFrame {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -129,9 +129,9 @@
 }
 
 .commaThreeImgFrame {
-    width: 100%;
+    max-width: 100%;
     display: flex;
-    height: 34rem;
+    max-height: 34rem;
     justify-content: center;
     -webkit-touch-callout: none;
     /*iOS Safari*/
@@ -179,11 +179,10 @@
 
 .overlayComponent {
     position: absolute;
-
 }
 
 .commaThreeImgOuterFrame {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -232,6 +231,8 @@
     text-align: center;
     left: 1%;
     right: 1%;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 a {
@@ -260,7 +261,7 @@ a {
 
 .informationFrame {
 
-    width: 80rem;
+    max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -276,7 +277,15 @@ a {
     color: #d5d5d5;
     font-family: InterLight;
     font-size: 1.6rem;
+}
 
+@media (max-width:1500px) {
+    .cardsFrame {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
 }
 
 span {
@@ -375,10 +384,12 @@ span {
 .openpilotContainer {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    width: 60rem;
+    max-width: 60rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .openpilotHeading {
@@ -547,6 +558,23 @@ span {
     }
 }
 
+@media (max-width:1170px) {
+    .grid {
+        padding: 6rem;
+        --columns: 2;
+    }
+}
+
+
+@media (max-width:780px) {
+    .grid {
+        padding: 6rem;
+        --columns: 1;
+    }
+}
+
+
+
 .tweetOuterContainer {
     background-color: rgb(44, 44, 44);
     top: 0;
@@ -561,6 +589,14 @@ span {
     font-size: 2.3rem;
     display: inline;
     font-family: InterBold;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+@media (max-width:658px) {
+    .grid {
+        padding-left: 8rem;
+    }
 }
 
 .tweetContainer {
@@ -581,13 +617,9 @@ span {
 .featuredInContainer {
     background-color: white;
     text-align: center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-
+    padding: 7rem;
     border-radius: 0px 50px;
-
     margin-top: -3rem;
-
 }
 
 .featuredInHeader {
@@ -608,6 +640,10 @@ span {
     padding: 2rem;
    
 }
+
+.featuredInIcons:hover {
+    transform: scale(1.3);
+  }
 
 .lowerBuyNowContainer {
     display: flex;
@@ -671,3 +707,4 @@ span {
     height: 50px;
     width: 200px;
 }
+

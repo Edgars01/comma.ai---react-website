@@ -3,7 +3,6 @@ import React from 'react';
 import '../css/footer.css';
 
 import commaImage from '../media/footer/comma-white.png';
-
 import github from '../media/footer/icon-github-white.png';
 import instagram from '../media/footer/icon-instagram-white.png';
 import twitter from '../media/footer/icon-twitter-white.png';
@@ -13,10 +12,7 @@ import youtube from '../media/footer/icon-youtube-white.png';
 const Footer = () => {
     return (
 
-
         <footer class="footer-section">
-
-
             <div class="container">
                 <div class="footer-content pt-5 pb-5">
                     <div class="row">
